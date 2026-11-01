@@ -1,4 +1,4 @@
-# Library Management API
+# Library Circulation API
 
 A RESTful API for managing library records, developed using Python, FastAPI, SQLModel, SQLAlchemy, SQLite, and PostgreSQL.
 
@@ -6,7 +6,7 @@ This project demonstrates how to build a backend application using FastAPI, conn
 
 ## 1. Project Description
 
-The Library Management API is a backend application developed using Python and FastAPI. It provides REST API endpoints to create, retrieve, update, and delete book records, manage book loans, and generate library summary reports.
+The Library Circulation API is a backend application developed using Python and FastAPI. It provides REST API endpoints to create, retrieve, update, and delete book records, manage book loans, and generate library summary reports.
 
 The application uses SQLModel and SQLAlchemy for database interaction and SQLite as the default database. It also supports PostgreSQL through environment-based database configuration.
 
@@ -118,13 +118,13 @@ library_management_api/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Asmita456/library-circulation-api
 ```
 
 ### Step 2: Navigate to the Project Folder
 
 ```bash
-cd library_management_api
+cd library-circulation-api
 ```
 
 ### Step 3: Create a Virtual Environment
@@ -612,13 +612,13 @@ This project helped me understand how to develop RESTful APIs using FastAPI, con
 
 It also provided practical knowledge of API routing, request handling, data validation, database connectivity, transaction handling, error handling, and organizing a Python backend application into separate modules.
 
-Overall, the Library Management API demonstrates the implementation of a backend application for managing books, borrowing and returning operations, and library reports using modern Python technologies.
+Overall, the Library Circulation API demonstrates the implementation of a backend application for managing books, borrowing and returning operations, and library reports using modern Python technologies.
 
 ## 15. Author
 
 **Developed by:** Asmita Pandeya
 
-**Project:** Library Management API
+**Project:** Library Circulation API
 
 
 Developed as a practical assignment to understand REST API development, database integration, and backend application development using Python.
