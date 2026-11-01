@@ -118,7 +118,7 @@ library_circulation_api/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/Asmita456/library-circulation-api
+git clone <https://github.com/Asmita456/library-circulation-api>
 ```
 
 ### Step 2: Navigate to the Project Folder
