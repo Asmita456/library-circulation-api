@@ -32,9 +32,9 @@ The application provides automatic database table creation, database session man
 
 **Uvicorn:** ASGI server used to run the FastAPI application.
 
-## 3. Project Structure
+## Project Structure
 
-'''
+```text
 library_circulation_api/
 │
 ├── app/
@@ -67,7 +67,7 @@ library_circulation_api/
 ├── library.db
 ├── README.md
 └── requirements.txt
-'''
+```
 ### File Description
 
 **__init__.py:** Marks the app and routers directories as Python packages, allowing their modules to be imported.
@@ -95,6 +95,8 @@ library_circulation_api/
 **.env:** Stores database configuration using environment variables. It should not be uploaded to GitHub.
 
 **library.db:** SQLite database file used to store book and loan records during local SQLite development.
+
+**screenshots/:** Contains screenshots of the API documentation, successful API operations, and error responses captured during API testing using Swagger UI.
 
 ## 4. Features
 
