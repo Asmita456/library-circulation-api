@@ -34,6 +34,7 @@ The application provides automatic database table creation, database session man
 
 ## 3. Project Structure
 
+'''
 library_circulation_api/
 │
 ├── app/
@@ -66,6 +67,7 @@ library_circulation_api/
 ├── library.db
 ├── README.md
 └── requirements.txt
+'''
 ### File Description
 
 **__init__.py:** Marks the app and routers directories as Python packages, allowing their modules to be imported.
