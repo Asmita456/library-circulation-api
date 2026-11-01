@@ -35,7 +35,7 @@ The application provides automatic database table creation, database session man
 ## 3. Project Structure
 
 ```text
-library_management_api/
+library_circulation_api/
 │
 ├── app/
 │   ├── __init__.py
