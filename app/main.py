@@ -10,7 +10,7 @@ async def lifespan(app: FastAPI):
     yield
 
 
-app = FastAPI(title="Library Management API", lifespan=lifespan)
+app = FastAPI(title="Library Circulation API", lifespan=lifespan)
 
 app.include_router(books.router)
 app.include_router(loans.router)
@@ -18,4 +18,4 @@ app.include_router(reports.router)
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to Library Management API"}
+    return {"message": "Welcome to Library Circulation API"}
