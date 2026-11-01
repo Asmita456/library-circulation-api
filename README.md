@@ -34,29 +34,38 @@ The application provides automatic database table creation, database session man
 
 ## 3. Project Structure
 
-```text
 library_circulation_api/
 │
 ├── app/
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   ├── books.py
+│   │   ├── loans.py
+│   │   └── reports.py
+│   │
 │   ├── __init__.py
 │   ├── database.py
 │   ├── main.py
 │   ├── models.py
-│   ├── schemas.py
-│   │
-│   └── routers/
-│       ├── __init__.py
-│       ├── books.py
-│       ├── loans.py
-│       └── reports.py
+│   └── schemas.py
+│
+├── screenshots/
+│   ├── book_not_found.png
+│   ├── create_book.png
+│   ├── delete_book.png
+│   ├── get_book_by_id.png
+│   ├── get_books.png
+│   ├── library_api_swagger.png
+│   ├── loan_book_not_found.png
+│   └── loan_create.png
+│
+├── venv/
 │
 ├── .env
 ├── .gitignore
+├── library.db
 ├── README.md
-├── requirements.txt
-└── library.db
-```
-
+└── requirements.txt
 ### File Description
 
 **__init__.py:** Marks the app and routers directories as Python packages, allowing their modules to be imported.
