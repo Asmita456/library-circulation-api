@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
-from app.db import create_db
-from app.routers import router
+from app.database import create_db
+from app.routers import books, loans, reports
 
 
 @asynccontextmanager
@@ -12,8 +12,9 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Library Management API", lifespan=lifespan)
 
-app.include_router(router)
-
+app.include_router(books.router)
+app.include_router(loans.router)
+app.include_router(reports.router)
 
 @app.get("/")
 def home():
