@@ -96,7 +96,6 @@ library_circulation_api/
 
 **library.db:** SQLite database file used to store book and loan records during local SQLite development.
 
-**screenshots/:** Contains screenshots of the API documentation, successful API operations, and error responses captured during API testing using Swagger UI.
 
 ## 4. Features
 
@@ -151,7 +150,7 @@ python -m venv venv
 For Windows PowerShell:
 
 ```powershell
-.\venv\Scripts\Activate
+.\venv\Scripts\Activate.ps1
 ```
 
 For Linux/macOS:
